@@ -1,0 +1,358 @@
+samuel-buffet-20080904-3-fr-35 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080904-3/flac/fr-35.flac |
+samuel-buffet-20080904-3-fr-36 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080904-3/flac/fr-36.flac |
+samuel-buffet-20080904-3-fr-37 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080904-3/flac/fr-37.flac |
+samuel-buffet-20080904-3-fr-39 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080904-3/flac/fr-39.flac |
+samuel-buffet-20080904-fr-23 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080904/flac/fr-23.flac |
+samuel-buffet-20080904-fr-25 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080904/flac/fr-25.flac |
+samuel-buffet-20080904-fr-26 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080904/flac/fr-26.flac |
+samuel-buffet-20080904-fr-27 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080904/flac/fr-27.flac |
+samuel-buffet-20080904-fr-30 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080904/flac/fr-30.flac |
+samuel-buffet-20080904-fr-31 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080904/flac/fr-31.flac |
+samuel-buffet-20080905-fr-144 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-144.flac |
+samuel-buffet-20080905-fr-145 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-145.flac |
+samuel-buffet-20080905-fr-148 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-148.flac |
+samuel-buffet-20080905-fr-149 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-149.flac |
+samuel-buffet-20080905-fr-150 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-150.flac |
+samuel-buffet-20080905-fr-153 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-153.flac |
+samuel-buffet-20080905-fr-154 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-154.flac |
+samuel-buffet-20080905-fr-155 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-155.flac |
+samuel-buffet-20080905-fr-156 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-156.flac |
+samuel-buffet-20080905-fr-157 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-157.flac |
+samuel-buffet-20080905-fr-159 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-159.flac |
+samuel-buffet-20080905-fr-160 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-160.flac |
+samuel-buffet-20080905-fr-161 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-161.flac |
+samuel-buffet-20080905-fr-162 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-162.flac |
+samuel-buffet-20080905-fr-163 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-163.flac |
+samuel-buffet-20080905-fr-164 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-164.flac |
+samuel-buffet-20080905-fr-165 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-165.flac |
+samuel-buffet-20080905-fr-167 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-167.flac |
+samuel-buffet-20080905-fr-168 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-168.flac |
+samuel-buffet-20080905-fr-170 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-170.flac |
+samuel-buffet-20080905-fr-171 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-171.flac |
+samuel-buffet-20080905-fr-172 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-172.flac |
+samuel-buffet-20080905-fr-173 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-173.flac |
+samuel-buffet-20080905-fr-174 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-174.flac |
+samuel-buffet-20080905-fr-176 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-176.flac |
+samuel-buffet-20080905-fr-178 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-178.flac |
+samuel-buffet-20080905-fr-179 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-179.flac |
+samuel-buffet-20080905-fr-180 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-180.flac |
+samuel-buffet-20080905-fr-182 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-182.flac |
+samuel-buffet-20080905-fr-183 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-183.flac |
+samuel-buffet-20080905-fr-185 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-185.flac |
+samuel-buffet-20080905-fr-186 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-186.flac |
+samuel-buffet-20080905-fr-187 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-187.flac |
+samuel-buffet-20080905-fr-189 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-189.flac |
+samuel-buffet-20080905-fr-190 flac -c -d --silent /resources/asr-data/Voxforge//fr/extracted/samuel-buffet-20080905/flac/fr-190.flac |
+samuelbuffet-20080912-dcp-fr-sb-589 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-dcp/wav/fr-sb-589.wav
+samuelbuffet-20080912-dcp-fr-sb-591 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-dcp/wav/fr-sb-591.wav
+samuelbuffet-20080912-dcp-fr-sb-592 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-dcp/wav/fr-sb-592.wav
+samuelbuffet-20080912-dcp-fr-sb-594 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-dcp/wav/fr-sb-594.wav
+samuelbuffet-20080912-dcp-fr-sb-596 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-dcp/wav/fr-sb-596.wav
+samuelbuffet-20080912-dcp-fr-sb-598 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-dcp/wav/fr-sb-598.wav
+samuelbuffet-20080912-eyf-fr-sb-634 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-eyf/wav/fr-sb-634.wav
+samuelbuffet-20080912-eyf-fr-sb-636 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-eyf/wav/fr-sb-636.wav
+samuelbuffet-20080912-eyf-fr-sb-639 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-eyf/wav/fr-sb-639.wav
+samuelbuffet-20080912-eyf-fr-sb-640 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-eyf/wav/fr-sb-640.wav
+samuelbuffet-20080912-fhr-fr-sb-452 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fhr/wav/fr-sb-452.wav
+samuelbuffet-20080912-fhr-fr-sb-454 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fhr/wav/fr-sb-454.wav
+samuelbuffet-20080912-fhr-fr-sb-457 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fhr/wav/fr-sb-457.wav
+samuelbuffet-20080912-fia-fr-sb-147 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fia/wav/fr-sb-147.wav
+samuelbuffet-20080912-fia-fr-sb-148 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fia/wav/fr-sb-148.wav
+samuelbuffet-20080912-fia-fr-sb-152 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fia/wav/fr-sb-152.wav
+samuelbuffet-20080912-fia-fr-sb-153 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fia/wav/fr-sb-153.wav
+samuelbuffet-20080912-fia-fr-sb-155 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fia/wav/fr-sb-155.wav
+samuelbuffet-20080912-fia-fr-sb-156 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fia/wav/fr-sb-156.wav
+samuelbuffet-20080912-fvm-fr-sb-11 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fvm/wav/fr-sb-11.wav
+samuelbuffet-20080912-fvm-fr-sb-13 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fvm/wav/fr-sb-13.wav
+samuelbuffet-20080912-fvm-fr-sb-14 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fvm/wav/fr-sb-14.wav
+samuelbuffet-20080912-fvm-fr-sb-15 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fvm/wav/fr-sb-15.wav
+samuelbuffet-20080912-fvm-fr-sb-16 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fvm/wav/fr-sb-16.wav
+samuelbuffet-20080912-fvm-fr-sb-17 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fvm/wav/fr-sb-17.wav
+samuelbuffet-20080912-fxv-fr-sb-372 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fxv/wav/fr-sb-372.wav
+samuelbuffet-20080912-fxv-fr-sb-373 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fxv/wav/fr-sb-373.wav
+samuelbuffet-20080912-fxv-fr-sb-374 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fxv/wav/fr-sb-374.wav
+samuelbuffet-20080912-fxv-fr-sb-377 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fxv/wav/fr-sb-377.wav
+samuelbuffet-20080912-fxv-fr-sb-379 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fxv/wav/fr-sb-379.wav
+samuelbuffet-20080912-fxv-fr-sb-380 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-fxv/wav/fr-sb-380.wav
+samuelbuffet-20080912-gjl-fr-sb-834 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-gjl/wav/fr-sb-834.wav
+samuelbuffet-20080912-gjl-fr-sb-838 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-gjl/wav/fr-sb-838.wav
+samuelbuffet-20080912-gjl-fr-sb-841 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-gjl/wav/fr-sb-841.wav
+samuelbuffet-20080912-gjl-fr-sb-843 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-gjl/wav/fr-sb-843.wav
+samuelbuffet-20080912-jvp-fr-sb-351 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-jvp/wav/fr-sb-351.wav
+samuelbuffet-20080912-jvp-fr-sb-352 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-jvp/wav/fr-sb-352.wav
+samuelbuffet-20080912-kzp-fr-sb-830 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-kzp/wav/fr-sb-830.wav
+samuelbuffet-20080912-kzp-fr-sb-831 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-kzp/wav/fr-sb-831.wav
+samuelbuffet-20080912-kzp-fr-sb-832 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-kzp/wav/fr-sb-832.wav
+samuelbuffet-20080912-kzp-fr-sb-833 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-kzp/wav/fr-sb-833.wav
+samuelbuffet-20080912-kzp-fr-sb-834 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-kzp/wav/fr-sb-834.wav
+samuelbuffet-20080912-kzp-fr-sb-838 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-kzp/wav/fr-sb-838.wav
+samuelbuffet-20080912-mca-fr-sb-634 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-mca/wav/fr-sb-634.wav
+samuelbuffet-20080912-mca-fr-sb-636 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-mca/wav/fr-sb-636.wav
+samuelbuffet-20080912-mca-fr-sb-639 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-mca/wav/fr-sb-639.wav
+samuelbuffet-20080912-mca-fr-sb-640 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-mca/wav/fr-sb-640.wav
+samuelbuffet-20080912-ofm-fr-sb-555 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-ofm/wav/fr-sb-555.wav
+samuelbuffet-20080912-ofm-fr-sb-556 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-ofm/wav/fr-sb-556.wav
+samuelbuffet-20080912-ofm-fr-sb-561 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-ofm/wav/fr-sb-561.wav
+samuelbuffet-20080912-pau-fr-sb-45 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-pau/wav/fr-sb-45.wav
+samuelbuffet-20080912-pau-fr-sb-46 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-pau/wav/fr-sb-46.wav
+samuelbuffet-20080912-pau-fr-sb-48 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-pau/wav/fr-sb-48.wav
+samuelbuffet-20080912-pau-fr-sb-49 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-pau/wav/fr-sb-49.wav
+samuelbuffet-20080912-pau-fr-sb-51 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-pau/wav/fr-sb-51.wav
+samuelbuffet-20080912-psg-fr-sb-459 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-psg/wav/fr-sb-459.wav
+samuelbuffet-20080912-psg-fr-sb-460 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-psg/wav/fr-sb-460.wav
+samuelbuffet-20080912-psg-fr-sb-464 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-psg/wav/fr-sb-464.wav
+samuelbuffet-20080912-psg-fr-sb-465 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-psg/wav/fr-sb-465.wav
+samuelbuffet-20080912-psg-fr-sb-467 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-psg/wav/fr-sb-467.wav
+samuelbuffet-20080912-qmr-fr-sb-819 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-qmr/wav/fr-sb-819.wav
+samuelbuffet-20080912-qmr-fr-sb-820 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-qmr/wav/fr-sb-820.wav
+samuelbuffet-20080912-qmr-fr-sb-821 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-qmr/wav/fr-sb-821.wav
+samuelbuffet-20080912-qmr-fr-sb-822 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-qmr/wav/fr-sb-822.wav
+samuelbuffet-20080912-qmr-fr-sb-823 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-qmr/wav/fr-sb-823.wav
+samuelbuffet-20080912-qmr-fr-sb-824 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-qmr/wav/fr-sb-824.wav
+samuelbuffet-20080912-qmr-fr-sb-826 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-qmr/wav/fr-sb-826.wav
+samuelbuffet-20080912-qmr-fr-sb-827 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-qmr/wav/fr-sb-827.wav
+samuelbuffet-20080912-qnd-fr-sb-338 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-qnd/wav/fr-sb-338.wav
+samuelbuffet-20080912-qnd-fr-sb-339 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-qnd/wav/fr-sb-339.wav
+samuelbuffet-20080912-qnd-fr-sb-340 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-qnd/wav/fr-sb-340.wav
+samuelbuffet-20080912-qnd-fr-sb-343 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-qnd/wav/fr-sb-343.wav
+samuelbuffet-20080912-qnd-fr-sb-344 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-qnd/wav/fr-sb-344.wav
+samuelbuffet-20080912-tpe-fr-sb-747 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-tpe/wav/fr-sb-747.wav
+samuelbuffet-20080912-tpe-fr-sb-749 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-tpe/wav/fr-sb-749.wav
+samuelbuffet-20080912-tpe-fr-sb-751 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-tpe/wav/fr-sb-751.wav
+samuelbuffet-20080912-tpe-fr-sb-752 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-tpe/wav/fr-sb-752.wav
+samuelbuffet-20080912-tpe-fr-sb-754 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-tpe/wav/fr-sb-754.wav
+samuelbuffet-20080912-tpe-fr-sb-755 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-tpe/wav/fr-sb-755.wav
+samuelbuffet-20080912-tto-fr-sb-199 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-tto/wav/fr-sb-199.wav
+samuelbuffet-20080912-tto-fr-sb-203 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-tto/wav/fr-sb-203.wav
+samuelbuffet-20080912-tto-fr-sb-204 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-tto/wav/fr-sb-204.wav
+samuelbuffet-20080912-tto-fr-sb-208 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-tto/wav/fr-sb-208.wav
+samuelbuffet-20080912-twd-fr-sb-539 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-twd/wav/fr-sb-539.wav
+samuelbuffet-20080912-twd-fr-sb-540 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-twd/wav/fr-sb-540.wav
+samuelbuffet-20080912-twd-fr-sb-541 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-twd/wav/fr-sb-541.wav
+samuelbuffet-20080912-twd-fr-sb-543 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-twd/wav/fr-sb-543.wav
+samuelbuffet-20080912-twd-fr-sb-544 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-twd/wav/fr-sb-544.wav
+samuelbuffet-20080912-vfu-fr-sb-103 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-vfu/wav/fr-sb-103.wav
+samuelbuffet-20080912-vfu-fr-sb-104 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-vfu/wav/fr-sb-104.wav
+samuelbuffet-20080912-vfu-fr-sb-105 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-vfu/wav/fr-sb-105.wav
+samuelbuffet-20080912-vfu-fr-sb-106 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-vfu/wav/fr-sb-106.wav
+samuelbuffet-20080912-vfu-fr-sb-107 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-vfu/wav/fr-sb-107.wav
+samuelbuffet-20080912-vfu-fr-sb-110 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-vfu/wav/fr-sb-110.wav
+samuelbuffet-20080912-vis-fr-sb-317 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-vis/wav/fr-sb-317.wav
+samuelbuffet-20080912-vis-fr-sb-319 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-vis/wav/fr-sb-319.wav
+samuelbuffet-20080912-vis-fr-sb-322 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-vis/wav/fr-sb-322.wav
+samuelbuffet-20080912-vis-fr-sb-324 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-vis/wav/fr-sb-324.wav
+samuelbuffet-20080912-vis-fr-sb-325 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-vis/wav/fr-sb-325.wav
+samuelbuffet-20080912-wfv-fr-sb-210 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-wfv/wav/fr-sb-210.wav
+samuelbuffet-20080912-wfv-fr-sb-216 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-wfv/wav/fr-sb-216.wav
+samuelbuffet-20080912-wfv-fr-sb-217 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-wfv/wav/fr-sb-217.wav
+samuelbuffet-20080912-xku-fr-sb-251 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-xku/wav/fr-sb-251.wav
+samuelbuffet-20080912-xku-fr-sb-254 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-xku/wav/fr-sb-254.wav
+samuelbuffet-20080912-xpq-fr-sb-107 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-xpq/wav/fr-sb-107.wav
+samuelbuffet-20080912-xpq-fr-sb-110 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-xpq/wav/fr-sb-110.wav
+samuelbuffet-20080912-xpq-fr-sb-113 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-xpq/wav/fr-sb-113.wav
+samuelbuffet-20080912-xpq-fr-sb-114 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-xpq/wav/fr-sb-114.wav
+samuelbuffet-20080912-zcl-fr-sb-853 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-zcl/wav/fr-sb-853.wav
+samuelbuffet-20080912-zcl-fr-sb-857 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-zcl/wav/fr-sb-857.wav
+samuelbuffet-20080912-zcl-fr-sb-860 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-zcl/wav/fr-sb-860.wav
+samuelbuffet-20080912-zcl-fr-sb-861 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-zcl/wav/fr-sb-861.wav
+samuelbuffet-20080912-zfl-fr-sb-613 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-zfl/wav/fr-sb-613.wav
+samuelbuffet-20080912-zfl-fr-sb-615 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-zfl/wav/fr-sb-615.wav
+samuelbuffet-20080912-zfl-fr-sb-616 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-zfl/wav/fr-sb-616.wav
+samuelbuffet-20080912-zfl-fr-sb-618 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-zfl/wav/fr-sb-618.wav
+samuelbuffet-20080912-zfl-fr-sb-619 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-zfl/wav/fr-sb-619.wav
+samuelbuffet-20080912-zfl-fr-sb-620 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-zfl/wav/fr-sb-620.wav
+samuelbuffet-20080912-zfl-fr-sb-621 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080912-zfl/wav/fr-sb-621.wav
+samuelbuffet-20080913-btu-fr-sb-174 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-btu/wav/fr-sb-174.wav
+samuelbuffet-20080913-btu-fr-sb-176 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-btu/wav/fr-sb-176.wav
+samuelbuffet-20080913-btu-fr-sb-178 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-btu/wav/fr-sb-178.wav
+samuelbuffet-20080913-btu-fr-sb-181 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-btu/wav/fr-sb-181.wav
+samuelbuffet-20080913-btu-fr-sb-182 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-btu/wav/fr-sb-182.wav
+samuelbuffet-20080913-btu-fr-sb-183 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-btu/wav/fr-sb-183.wav
+samuelbuffet-20080913-deg-fr-sb-220 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-deg/wav/fr-sb-220.wav
+samuelbuffet-20080913-deg-fr-sb-223 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-deg/wav/fr-sb-223.wav
+samuelbuffet-20080913-deg-fr-sb-224 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-deg/wav/fr-sb-224.wav
+samuelbuffet-20080913-deg-fr-sb-225 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-deg/wav/fr-sb-225.wav
+samuelbuffet-20080913-deg-fr-sb-226 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-deg/wav/fr-sb-226.wav
+samuelbuffet-20080913-igk-fr-sb-11 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-igk/wav/fr-sb-11.wav
+samuelbuffet-20080913-igk-fr-sb-4 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-igk/wav/fr-sb-4.wav
+samuelbuffet-20080913-igk-fr-sb-5 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-igk/wav/fr-sb-5.wav
+samuelbuffet-20080913-igk-fr-sb-6 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-igk/wav/fr-sb-6.wav
+samuelbuffet-20080913-igk-fr-sb-7 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-igk/wav/fr-sb-7.wav
+samuelbuffet-20080913-igk-fr-sb-8 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-igk/wav/fr-sb-8.wav
+samuelbuffet-20080913-jip-fr-sb-113 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-jip/wav/fr-sb-113.wav
+samuelbuffet-20080913-jip-fr-sb-114 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-jip/wav/fr-sb-114.wav
+samuelbuffet-20080913-jip-fr-sb-120 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-jip/wav/fr-sb-120.wav
+samuelbuffet-20080913-jum-fr-sb-45 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-jum/wav/fr-sb-45.wav
+samuelbuffet-20080913-jum-fr-sb-46 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-jum/wav/fr-sb-46.wav
+samuelbuffet-20080913-jum-fr-sb-48 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-jum/wav/fr-sb-48.wav
+samuelbuffet-20080913-jum-fr-sb-49 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-jum/wav/fr-sb-49.wav
+samuelbuffet-20080913-jum-fr-sb-51 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-jum/wav/fr-sb-51.wav
+samuelbuffet-20080913-jum-fr-sb-53 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-jum/wav/fr-sb-53.wav
+samuelbuffet-20080913-jum-fr-sb-54 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-jum/wav/fr-sb-54.wav
+samuelbuffet-20080913-kvu-fr-sb-620 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-kvu/wav/fr-sb-620.wav
+samuelbuffet-20080913-kvu-fr-sb-621 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-kvu/wav/fr-sb-621.wav
+samuelbuffet-20080913-kvu-fr-sb-624 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-kvu/wav/fr-sb-624.wav
+samuelbuffet-20080913-kvu-fr-sb-625 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-kvu/wav/fr-sb-625.wav
+samuelbuffet-20080913-kvu-fr-sb-627 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-kvu/wav/fr-sb-627.wav
+samuelbuffet-20080913-kvu-fr-sb-629 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080913-kvu/wav/fr-sb-629.wav
+samuelbuffet-20080919-bfz-fr-sb-406 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080919-bfz/wav/fr-sb-406.wav
+samuelbuffet-20080919-bfz-fr-sb-408 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080919-bfz/wav/fr-sb-408.wav
+samuelbuffet-20080919-bfz-fr-sb-410 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080919-bfz/wav/fr-sb-410.wav
+samuelbuffet-20080919-bfz-fr-sb-412 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080919-bfz/wav/fr-sb-412.wav
+samuelbuffet-20080919-bfz-fr-sb-414 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080919-bfz/wav/fr-sb-414.wav
+samuelbuffet-20080919-kby-fr-sb-730 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080919-kby/wav/fr-sb-730.wav
+samuelbuffet-20080919-kby-fr-sb-731 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080919-kby/wav/fr-sb-731.wav
+samuelbuffet-20080919-kby-fr-sb-732 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080919-kby/wav/fr-sb-732.wav
+samuelbuffet-20080919-kby-fr-sb-733 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080919-kby/wav/fr-sb-733.wav
+samuelbuffet-20080919-kby-fr-sb-735 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080919-kby/wav/fr-sb-735.wav
+samuelbuffet-20080919-kby-fr-sb-736 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080919-kby/wav/fr-sb-736.wav
+samuelbuffet-20080919-kby-fr-sb-738 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080919-kby/wav/fr-sb-738.wav
+samuelbuffet-20080919-kby-fr-sb-739 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20080919-kby/wav/fr-sb-739.wav
+samuelbuffet-20090628-bkr-fr-sb-408 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-bkr/wav/fr-sb-408.wav
+samuelbuffet-20090628-bkr-fr-sb-410 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-bkr/wav/fr-sb-410.wav
+samuelbuffet-20090628-bkr-fr-sb-412 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-bkr/wav/fr-sb-412.wav
+samuelbuffet-20090628-bkr-fr-sb-414 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-bkr/wav/fr-sb-414.wav
+samuelbuffet-20090628-bkr-fr-sb-415 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-bkr/wav/fr-sb-415.wav
+samuelbuffet-20090628-ify-fr-sb-103 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-ify/wav/fr-sb-103.wav
+samuelbuffet-20090628-ify-fr-sb-104 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-ify/wav/fr-sb-104.wav
+samuelbuffet-20090628-ify-fr-sb-105 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-ify/wav/fr-sb-105.wav
+samuelbuffet-20090628-ify-fr-sb-106 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-ify/wav/fr-sb-106.wav
+samuelbuffet-20090628-ify-fr-sb-107 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-ify/wav/fr-sb-107.wav
+samuelbuffet-20090628-ify-fr-sb-110 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-ify/wav/fr-sb-110.wav
+samuelbuffet-20090628-lsn-fr-sb-616 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-lsn/wav/fr-sb-616.wav
+samuelbuffet-20090628-lsn-fr-sb-618 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-lsn/wav/fr-sb-618.wav
+samuelbuffet-20090628-lsn-fr-sb-619 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-lsn/wav/fr-sb-619.wav
+samuelbuffet-20090628-lsn-fr-sb-620 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-lsn/wav/fr-sb-620.wav
+samuelbuffet-20090628-lsn-fr-sb-621 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-lsn/wav/fr-sb-621.wav
+samuelbuffet-20090628-lsn-fr-sb-624 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-lsn/wav/fr-sb-624.wav
+samuelbuffet-20090628-lsn-fr-sb-625 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090628-lsn/wav/fr-sb-625.wav
+samuelbuffet-20090629-bop-fr-sb-555 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-bop/wav/fr-sb-555.wav
+samuelbuffet-20090629-bop-fr-sb-556 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-bop/wav/fr-sb-556.wav
+samuelbuffet-20090629-bop-fr-sb-561 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-bop/wav/fr-sb-561.wav
+samuelbuffet-20090629-mqr-fr-sb-188 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-mqr/wav/fr-sb-188.wav
+samuelbuffet-20090629-mqr-fr-sb-189 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-mqr/wav/fr-sb-189.wav
+samuelbuffet-20090629-mqr-fr-sb-191 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-mqr/wav/fr-sb-191.wav
+samuelbuffet-20090629-mqr-fr-sb-193 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-mqr/wav/fr-sb-193.wav
+samuelbuffet-20090629-mqr-fr-sb-194 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-mqr/wav/fr-sb-194.wav
+samuelbuffet-20090629-mqr-fr-sb-195 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-mqr/wav/fr-sb-195.wav
+samuelbuffet-20090629-okg-fr-sb-140 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-okg/wav/fr-sb-140.wav
+samuelbuffet-20090629-okg-fr-sb-141 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-okg/wav/fr-sb-141.wav
+samuelbuffet-20090629-okg-fr-sb-142 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-okg/wav/fr-sb-142.wav
+samuelbuffet-20090629-okg-fr-sb-146 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-okg/wav/fr-sb-146.wav
+samuelbuffet-20090629-okg-fr-sb-147 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-okg/wav/fr-sb-147.wav
+samuelbuffet-20090629-okg-fr-sb-148 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-okg/wav/fr-sb-148.wav
+samuelbuffet-20090629-qfz-fr-sb-803 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-qfz/wav/fr-sb-803.wav
+samuelbuffet-20090629-qfz-fr-sb-804 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-qfz/wav/fr-sb-804.wav
+samuelbuffet-20090629-qfz-fr-sb-805 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-qfz/wav/fr-sb-805.wav
+samuelbuffet-20090629-qfz-fr-sb-808 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-qfz/wav/fr-sb-808.wav
+samuelbuffet-20090629-qfz-fr-sb-809 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-qfz/wav/fr-sb-809.wav
+samuelbuffet-20090629-qfz-fr-sb-810 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-qfz/wav/fr-sb-810.wav
+samuelbuffet-20090629-qfz-fr-sb-811 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-qfz/wav/fr-sb-811.wav
+samuelbuffet-20090629-txz-fr-sb-615 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-txz/wav/fr-sb-615.wav
+samuelbuffet-20090629-txz-fr-sb-616 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-txz/wav/fr-sb-616.wav
+samuelbuffet-20090629-txz-fr-sb-618 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-txz/wav/fr-sb-618.wav
+samuelbuffet-20090629-txz-fr-sb-619 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-txz/wav/fr-sb-619.wav
+samuelbuffet-20090629-txz-fr-sb-620 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-txz/wav/fr-sb-620.wav
+samuelbuffet-20090629-txz-fr-sb-621 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-txz/wav/fr-sb-621.wav
+samuelbuffet-20090629-txz-fr-sb-624 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-txz/wav/fr-sb-624.wav
+samuelbuffet-20090629-wtp-fr-sb-277 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-wtp/wav/fr-sb-277.wav
+samuelbuffet-20090629-wtp-fr-sb-279 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-wtp/wav/fr-sb-279.wav
+samuelbuffet-20090629-wtp-fr-sb-280 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-wtp/wav/fr-sb-280.wav
+samuelbuffet-20090629-wtp-fr-sb-281 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-wtp/wav/fr-sb-281.wav
+samuelbuffet-20090629-wtp-fr-sb-283 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-wtp/wav/fr-sb-283.wav
+samuelbuffet-20090629-wtp-fr-sb-285 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-wtp/wav/fr-sb-285.wav
+samuelbuffet-20090629-yeb-fr-sb-540 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-yeb/wav/fr-sb-540.wav
+samuelbuffet-20090629-yeb-fr-sb-541 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-yeb/wav/fr-sb-541.wav
+samuelbuffet-20090629-yeb-fr-sb-543 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-yeb/wav/fr-sb-543.wav
+samuelbuffet-20090629-yeb-fr-sb-544 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-yeb/wav/fr-sb-544.wav
+samuelbuffet-20090629-yeb-fr-sb-547 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-yeb/wav/fr-sb-547.wav
+samuelbuffet-20090629-yeb-fr-sb-548 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090629-yeb/wav/fr-sb-548.wav
+samuelbuffet-20090703-afz-fr-sb-195 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-afz/wav/fr-sb-195.wav
+samuelbuffet-20090703-afz-fr-sb-199 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-afz/wav/fr-sb-199.wav
+samuelbuffet-20090703-afz-fr-sb-203 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-afz/wav/fr-sb-203.wav
+samuelbuffet-20090703-afz-fr-sb-204 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-afz/wav/fr-sb-204.wav
+samuelbuffet-20090703-bio-fr-sb-381 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-bio/wav/fr-sb-381.wav
+samuelbuffet-20090703-bio-fr-sb-385 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-bio/wav/fr-sb-385.wav
+samuelbuffet-20090703-bio-fr-sb-387 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-bio/wav/fr-sb-387.wav
+samuelbuffet-20090703-bio-fr-sb-388 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-bio/wav/fr-sb-388.wav
+samuelbuffet-20090703-bio-fr-sb-390 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-bio/wav/fr-sb-390.wav
+samuelbuffet-20090703-blk-fr-sb-60 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-blk/wav/fr-sb-60.wav
+samuelbuffet-20090703-blk-fr-sb-63 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-blk/wav/fr-sb-63.wav
+samuelbuffet-20090703-bxp-fr-sb-831 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-bxp/wav/fr-sb-831.wav
+samuelbuffet-20090703-bxp-fr-sb-832 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-bxp/wav/fr-sb-832.wav
+samuelbuffet-20090703-bxp-fr-sb-833 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-bxp/wav/fr-sb-833.wav
+samuelbuffet-20090703-bxp-fr-sb-834 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-bxp/wav/fr-sb-834.wav
+samuelbuffet-20090703-bxp-fr-sb-838 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-bxp/wav/fr-sb-838.wav
+samuelbuffet-20090703-eea-fr-sb-543 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-eea/wav/fr-sb-543.wav
+samuelbuffet-20090703-eea-fr-sb-544 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-eea/wav/fr-sb-544.wav
+samuelbuffet-20090703-eea-fr-sb-547 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-eea/wav/fr-sb-547.wav
+samuelbuffet-20090703-eea-fr-sb-548 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-eea/wav/fr-sb-548.wav
+samuelbuffet-20090703-eea-fr-sb-550 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-eea/wav/fr-sb-550.wav
+samuelbuffet-20090703-eea-fr-sb-551 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-eea/wav/fr-sb-551.wav
+samuelbuffet-20090703-elj-fr-sb-838 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-elj/wav/fr-sb-838.wav
+samuelbuffet-20090703-elj-fr-sb-841 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-elj/wav/fr-sb-841.wav
+samuelbuffet-20090703-elj-fr-sb-843 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-elj/wav/fr-sb-843.wav
+samuelbuffet-20090703-elj-fr-sb-844 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-elj/wav/fr-sb-844.wav
+samuelbuffet-20090703-elj-fr-sb-845 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-elj/wav/fr-sb-845.wav
+samuelbuffet-20090703-epe-fr-sb-845 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-epe/wav/fr-sb-845.wav
+samuelbuffet-20090703-epe-fr-sb-847 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-epe/wav/fr-sb-847.wav
+samuelbuffet-20090703-epe-fr-sb-852 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-epe/wav/fr-sb-852.wav
+samuelbuffet-20090703-epe-fr-sb-853 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-epe/wav/fr-sb-853.wav
+samuelbuffet-20090703-evr-fr-sb-322 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-evr/wav/fr-sb-322.wav
+samuelbuffet-20090703-evr-fr-sb-324 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-evr/wav/fr-sb-324.wav
+samuelbuffet-20090703-evr-fr-sb-325 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-evr/wav/fr-sb-325.wav
+samuelbuffet-20090703-evr-fr-sb-328 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-evr/wav/fr-sb-328.wav
+samuelbuffet-20090703-evr-fr-sb-330 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-evr/wav/fr-sb-330.wav
+samuelbuffet-20090703-evr-fr-sb-331 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-evr/wav/fr-sb-331.wav
+samuelbuffet-20090703-fbc-fr-sb-561 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-fbc/wav/fr-sb-561.wav
+samuelbuffet-20090703-fbc-fr-sb-564 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-fbc/wav/fr-sb-564.wav
+samuelbuffet-20090703-fbc-fr-sb-565 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-fbc/wav/fr-sb-565.wav
+samuelbuffet-20090703-fbc-fr-sb-567 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-fbc/wav/fr-sb-567.wav
+samuelbuffet-20090703-fbc-fr-sb-568 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-fbc/wav/fr-sb-568.wav
+samuelbuffet-20090703-fbc-fr-sb-569 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-fbc/wav/fr-sb-569.wav
+samuelbuffet-20090703-fbc-fr-sb-570 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-fbc/wav/fr-sb-570.wav
+samuelbuffet-20090703-jdr-fr-sb-67 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-jdr/wav/fr-sb-67.wav
+samuelbuffet-20090703-jdr-fr-sb-68 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-jdr/wav/fr-sb-68.wav
+samuelbuffet-20090703-jdr-fr-sb-69 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-jdr/wav/fr-sb-69.wav
+samuelbuffet-20090703-jdr-fr-sb-70 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-jdr/wav/fr-sb-70.wav
+samuelbuffet-20090703-jdr-fr-sb-71 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-jdr/wav/fr-sb-71.wav
+samuelbuffet-20090703-jdr-fr-sb-72 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-jdr/wav/fr-sb-72.wav
+samuelbuffet-20090703-jdr-fr-sb-74 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-jdr/wav/fr-sb-74.wav
+samuelbuffet-20090703-jgi-fr-sb-334 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-jgi/wav/fr-sb-334.wav
+samuelbuffet-20090703-jgi-fr-sb-335 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-jgi/wav/fr-sb-335.wav
+samuelbuffet-20090703-jgi-fr-sb-336 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-jgi/wav/fr-sb-336.wav
+samuelbuffet-20090703-jgi-fr-sb-337 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-jgi/wav/fr-sb-337.wav
+samuelbuffet-20090703-jgi-fr-sb-338 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-jgi/wav/fr-sb-338.wav
+samuelbuffet-20090703-jgi-fr-sb-339 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-jgi/wav/fr-sb-339.wav
+samuelbuffet-20090703-jgi-fr-sb-340 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-jgi/wav/fr-sb-340.wav
+samuelbuffet-20090703-mat-fr-sb-79 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-mat/wav/fr-sb-79.wav
+samuelbuffet-20090703-mat-fr-sb-83 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-mat/wav/fr-sb-83.wav
+samuelbuffet-20090703-mat-fr-sb-85 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-mat/wav/fr-sb-85.wav
+samuelbuffet-20090703-msv-fr-sb-103 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-msv/wav/fr-sb-103.wav
+samuelbuffet-20090703-msv-fr-sb-104 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-msv/wav/fr-sb-104.wav
+samuelbuffet-20090703-msv-fr-sb-105 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-msv/wav/fr-sb-105.wav
+samuelbuffet-20090703-msv-fr-sb-96 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-msv/wav/fr-sb-96.wav
+samuelbuffet-20090703-msv-fr-sb-97 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-msv/wav/fr-sb-97.wav
+samuelbuffet-20090703-msv-fr-sb-98 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-msv/wav/fr-sb-98.wav
+samuelbuffet-20090703-nlj-fr-sb-134 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-nlj/wav/fr-sb-134.wav
+samuelbuffet-20090703-nlj-fr-sb-135 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-nlj/wav/fr-sb-135.wav
+samuelbuffet-20090703-nlj-fr-sb-139 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-nlj/wav/fr-sb-139.wav
+samuelbuffet-20090703-nlj-fr-sb-140 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-nlj/wav/fr-sb-140.wav
+samuelbuffet-20090703-nlj-fr-sb-141 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-nlj/wav/fr-sb-141.wav
+samuelbuffet-20090703-nlj-fr-sb-142 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-nlj/wav/fr-sb-142.wav
+samuelbuffet-20090703-nll-fr-sb-720 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-nll/wav/fr-sb-720.wav
+samuelbuffet-20090703-nll-fr-sb-722 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-nll/wav/fr-sb-722.wav
+samuelbuffet-20090703-nll-fr-sb-723 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-nll/wav/fr-sb-723.wav
+samuelbuffet-20090703-nll-fr-sb-724 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-nll/wav/fr-sb-724.wav
+samuelbuffet-20090703-nll-fr-sb-726 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-nll/wav/fr-sb-726.wav
+samuelbuffet-20090703-nll-fr-sb-729 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-nll/wav/fr-sb-729.wav
+samuelbuffet-20090703-obk-fr-sb-707 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-obk/wav/fr-sb-707.wav
+samuelbuffet-20090703-obk-fr-sb-711 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-obk/wav/fr-sb-711.wav
+samuelbuffet-20090703-obk-fr-sb-712 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-obk/wav/fr-sb-712.wav
+samuelbuffet-20090703-obk-fr-sb-714 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-obk/wav/fr-sb-714.wav
+samuelbuffet-20090703-pfd-fr-sb-497 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-pfd/wav/fr-sb-497.wav
+samuelbuffet-20090703-pfd-fr-sb-498 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-pfd/wav/fr-sb-498.wav
+samuelbuffet-20090703-snq-fr-sb-613 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-snq/wav/fr-sb-613.wav
+samuelbuffet-20090703-snq-fr-sb-615 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-snq/wav/fr-sb-615.wav
+samuelbuffet-20090703-snq-fr-sb-616 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-snq/wav/fr-sb-616.wav
+samuelbuffet-20090703-snq-fr-sb-618 /resources/asr-data/Voxforge//fr/extracted/samuelbuffet-20090703-snq/wav/fr-sb-618.wav

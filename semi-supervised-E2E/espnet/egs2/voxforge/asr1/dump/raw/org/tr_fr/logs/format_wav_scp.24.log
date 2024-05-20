@@ -1,0 +1,9 @@
+# pyscripts/audio/format_wav_scp.py --fs 16k --audio-format flac dump/raw/org/tr_fr/logs/wav.24.scp dump/raw/org/tr_fr/data/format.24 
+# Started at Sat Jul 16 16:37:52 CEST 2022
+#
+Traceback (most recent call last):
+  File "pyscripts/audio/format_wav_scp.py", line 17, in <module>
+    from espnet2.fileio.read_text import read_2column_text
+ModuleNotFoundError: No module named 'espnet2'
+# Accounting: time=3 threads=1
+# Ended (code 1) at Sat Jul 16 16:37:55 CEST 2022, elapsed time 3 seconds
