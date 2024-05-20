@@ -22,20 +22,51 @@ doi = {10.21437/Interspeech.2020-2177}
 
 # Executing run.sh script
 Let A represents the Mandarin text's domain, and B represents the domain of the Mandarin-English CS text. 
-* We pretrained the two generators (G:A->B and F:B->A) and discriminators with the transilation based synthetic Mandarin-English CS text.
+* We pretrained the two generators (G:A->B and F:B->A) and discriminators with the translation based synthetic Mandarin-English CS text.
 ```
 expdir=exp/AISSMS_40K_2/
 for s in "A2B" "B2A" "Discriminator"
 do
-  export CUDA_VISIBLE_DEVICES=2; nohup python -u pretrain.py --model $s --exp_dir $expdir > run.log.pretrain${s} &
+  export CUDA_VISIBLE_DEVICES=2;
+  nohup python -u pretrain.py --model $s --exp_dir $expdir > run.log.pretrain${s} &
 done
 ```
 * Train CycleGAN model with SEAME data and self-developed CS data
 ```
 expdir=exp/AISSMS_40K_2/
-export CUDA_VISIBLE_DEVICES=2; nohup python -u cycleGAN.py --lam_A2B2A 0.1 --lam_B2A2B 0.6 --exp_dir $expdir > run.log.cycleGAN &
-expdir=exp/CCG_40K_B2A2B0.4A2B2A0
-export CUDA_VISIBLE_DEVICES=2; nohup python -u cycleGAN_resume.py --resume exp/CCG_40K_B2A2B0.4A2B2A0/CCG4_bs10_netA2B.pt --start_epoch 4  --lam_A2B2A 0 --lam_B2A2B 0.4 --exp_dir $expdir > run.B2A2B0.4A2B2A0.log &
+export CUDA_VISIBLE_DEVICES=2;
+nohup python -u cycleGAN.py --lam_A2B2A 0.1 --lam_B2A2B 0.6 --exp_dir $expdir > run.log.cycleGAN &
 ```
-* /mount/arbeitsdaten/asr/licu/Experiments/SE_Work/CycleGAN
-* 
+* Concatenate all the output of generators given different Mandarin input text and normalize them before language model training
+```
+# cat all the generated text
+bs=10
+i=9
+outdir=exp/AISSMS_40K_B2A2B0.6_A2B2A0.3
+mkdir -p $outdir
+cat $expdir/CCG_EP${i}_bs${bs}_test_G $expdir/CCG_EP${i}_bs${bs}_train_allG $expdir/CCG_EP${i}_bs${bs}_valid_allG $expdir/CCG_EP${i}_bs${bs}_train_PKUSMS $expdir/CCG_EP${i}_bs${bs}_valid_PKUSMS > $outdir/CCG_EP${i}_bs${bs}_148853
+
+# normalize the predictions
+# utils/normalize_text.sh <text> <expdir>
+tag=B2A2B0.6_A2B2A0.3
+[ ! -d exp/normalized_text/${tag} ] && mkdir -p exp/normalized_text/${tag}
+utils/normalize_text.sh $outdir/CCG_EP${i}_bs${bs}_148853 exp/normalized_text/${tag}
+```
+* Train a language model with the mixed text (SEAME train text and the generated CS text) and evaluate the ppl of langauge model on SEAME test set
+```
+cd $E2E/egs/cs/asr5_0/
+tag=B2A2B0.6_A2B2A0.3
+bs=10
+i=9
+mkdir -p data/seametrain_${tag}_EP${i} 
+cd data/seametrain_${tag}_EP${i}
+ln -s $CS/exp/normalized_text/${tag}/CCG_EP${i}_bs${bs}_148853_norm2 .
+cut -d' ' -f2- ../train/text | cat - CCG_EP${i}_bs${bs}_148853_norm2 > train.txt
+cut -d' ' -f2- ../dev/text > valid.txt
+cut -d' ' -f2- ../eval/text > test.txt
+cd ..
+```
+* Use our best Mandarin-English CS [@ASR](https://github.com/chiayuli/My-Ph.D.-Publications/tree/main/E2E-ASR-for-Mandarin-English-CS-speech) Run decoding ASR with new language model decoding
+```
+export CUDA_VISIBLE_DEVICES=2; nohup ./run.CEF3.CCG.sh --stage 3 --ngpu 1 >> run.log.CCG5.test&
+```
