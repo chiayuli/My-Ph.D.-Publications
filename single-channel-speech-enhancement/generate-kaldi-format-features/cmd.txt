@@ -1,0 +1,7 @@
+##### TRAIN #####
+nohup python train.py --dataroot ./datasets/chime3_real/chime3_fbank_hires_caf_m/ --name cyclegan_chime3_real_caf_m_fbank_hires --model cycle_gan --batch_size 256 --gpu_ids 1 > run.log.chime3_real_caf_m_fbank_hires&
+
+
+##### TEST ######
+#
+nohup ./test2.sh cyclegan_chime3_real_caf_f_fbank_hires datasets/chime3_testSet_dt05_real_noisy/chime3_fbank_hires_caf_f 30 "CAF_dt05_f_real_noisy_exp03_fb40_v11_fbank_ep30" 3 3 > nohup.out&

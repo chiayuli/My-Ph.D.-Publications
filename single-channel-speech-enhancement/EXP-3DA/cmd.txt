@@ -1,0 +1,17 @@
+##### TRAIN #####
+nohup python train.py --dataroot ./datasets/chime3_v12 --name cyclegan_chime3_v12_resnet_6blocks_v13_noShuffle --model cycle_gan --batch_size 256 --gpu_ids 1,2,3 --ngf 256 --netG resnet_6blocks --netD n_layers --n_layers_D 6 --lambda_A 20 --serial_batches > run.log.2D_v2.v13.noShuffle&
+
+nohup python train.py --dataroot ./datasets/chime3_v12 --name cyclegan_chime3_v12_resnet_6blocks_v13 --model cycle_gan --batch_size 256 --gpu_ids 1,2,3 --ngf 256 --netG resnet_6blocks --netD n_layers --n_layers_D 6 --lambda_A 20 > run.log.2D_v2.v13&
+
+nohup python train.py --dataroot ./datasets/chime3_v12 --name cyclegan_chime3_v12_resnet_6blocks_v7 --model cycle_gan --batch_size 128 --gpu_ids 0,2,3 --ngf 128 --netG resnet_6blocks --netD n_layers --n_layers_D 5 > run.log.v11.resnet_6blocks_v7&
+
+nohup python train.py --dataroot ./datasets/chime3_v20 --name cyclegan_chime3_v20_resnet_6blocks_v3 --model cycle_gan --gpu_ids 1 --netG resnet_6blocks --ngf 128 >--batch_size 256 > run.log.v20.resnet_6blocks_v3&
+
+
+
+
+##### TEST ######
+nohup python test_real_v12_res6b_v13.py --dataroot ./datasets/chime3_v5 --name cyclegan_chime3_v12_resnet_6blocks_v13  --model cycle_gan --gpu_ids 2 --ngf 256 --netG resnet_6blocks --netD n_layers --n_layers_D 6 >> run.log.v12.resnet_6blocks_v13.new &
+
+nohup python test_real_v12_res6b_v13.py --dataroot ./datasets/chime3_v6 --name cyclegan_chime3_v12_resnet_6blocks_v13  --model cycle_gan --gpu_ids 2 --ngf 256 --netG resnet_6blocks --netD n_layers --n_layers_D 6 >> run.log.v12.resnet_6blocks_v13.new.simu &
+

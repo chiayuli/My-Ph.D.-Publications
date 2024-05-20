@@ -1,0 +1,17 @@
+nohup python train.py --dataroot ./datasets/chime3_v11 --name cyclegan_chime3_v11_resnet_6blocks_v7 --model cycle_gan --batch_size 128 --gpu_ids 0,2,3 --ngf 128 --netG resnet_6blocks --netD n_layers --n_layers_D 5 > run.log.v11.resnet_6blocks_v7&
+
+nohup python train.py --dataroot ./datasets/chime3_v20 --name cyclegan_chime3_v20_resnet_6blocks_v3 --model cycle_gan --gpu_ids 1 --netG resnet_6blocks --ngf 128 >--batch_size 256 > run.log.v20.resnet_6blocks_v3&
+
+nohup  python train.py --dataroot ./datasets/chime3/ --name chime3_cyclegan --model cycle_gan --batch_size 512 --gpu_ids 0,1,2 --display_port 8098  > run.log&
+
+nohup  python train.py --dataroot ./datasets/chime3_v2 --name chime3_v2_cyclegan --model cycle_gan --batch_size 20 --gpu_ids 1,2,3 --display_port 8080  > run.log.v2&
+
+nohup  python train.py --dataroot ./datasets/chime3_v3 --name cyclegan_chime3_v3 --model cycle_gan --gpu_ids 1,2,3 --batch_size 1024 --n_epochs 5 --n_epochs_decay 5 > run.log.v3&
+
+
+nohup  python train.py --dataroot ./datasets/chime3_v3 --name chime3_v3_cyclegan_unaligned --model cycle_gan --batch_size 1536 --gpu_ids 0,1,2,3 --display_port 8005 --n_epochs 50 --n_epochs_decay 50  > run.log.v3&
+
+
+nohup  python train.py --dataroot ./datasets/chime3_v3 --name chime3_v3_cyclegan_unaligned --model cycle_gan --batch_size 1536 --gpu_ids 0,1,2,3 --display_port 8005 opt.epoch_count 101 --n_epochs 100 --n_epochs_decay 100 > > run.log.v3&
+
+nohup python test_real.py --dataroot ./datasets/chime3_v5 --name chime3_v2_cyclegan --model cycle_gan --gpu_ids=2,3 > run.log.v2model.dt05_real&
