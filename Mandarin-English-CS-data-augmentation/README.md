@@ -47,10 +47,10 @@ mkdir -p $outdir
 cat $expdir/CCG_EP${i}_bs${bs}_test_G $expdir/CCG_EP${i}_bs${bs}_train_allG $expdir/CCG_EP${i}_bs${bs}_valid_allG $expdir/CCG_EP${i}_bs${bs}_train_PKUSMS $expdir/CCG_EP${i}_bs${bs}_valid_PKUSMS > $outdir/CCG_EP${i}_bs${bs}_148853
 
 # normalize the predictions
-# utils/normalize_text.sh <text> <expdir>
+# ./normalize_text.sh <text> <expdir>
 tag=B2A2B0.6_A2B2A0.3
 [ ! -d exp/normalized_text/${tag} ] && mkdir -p exp/normalized_text/${tag}
-utils/normalize_text.sh $outdir/CCG_EP${i}_bs${bs}_148853 exp/normalized_text/${tag}
+./normalize_text.sh $outdir/CCG_EP${i}_bs${bs}_148853 exp/normalized_text/${tag}
 ```
 * Train a language model with the mixed text (SEAME train text and the generated CS text) and evaluate the ppl of langauge model on SEAME test set
 ```
