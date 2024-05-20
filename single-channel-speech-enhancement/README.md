@@ -35,6 +35,8 @@ The code was initially written by [@Jun-Yan Zhu](https://github.com/junyanz), [@
 
 # Write features to kaldi format
 ./test_real_v12_res6b_v13.py --dataroot ./datasets/chime3_v5 --name cyclegan_chime3_v12_resnet_6blocks_v13  --model cycle_gan --gpu_ids 2 --ngf 256 --netG resnet_6blocks --netD n_layers --n_layers_D 6 >> run.log.v12.resnet_6blocks_v13.new &
-```
 
+# Plot Mel-spectrogram
+plotSpec.py
+```
 
