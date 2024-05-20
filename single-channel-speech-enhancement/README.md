@@ -21,7 +21,20 @@ The code was initially written by [@Jun-Yan Zhu](https://github.com/junyanz), [@
 # ASR toolkit
 * Kaldi (https://github.com/kaldi-asr/kaldi)
 
-# Installation
+# Executing scripts
+* Prepare parallel data (clean, noise) for training CycleGAN.
 ```
+./prepare_trainSet.sh
 ```
+* Training multi-discriminator CycleGAN with the paralleled data
+```
+# Command for training CycleGAN: EXP-1DA/cmd.txt
+# Command for training 2-discriminator CycleGAN: EXP-2DA/cmd.txt
+# Command for training 3-discriminator CycleGAN: EXP-3DA/cmd.txt
+./train.py --dataroot ./datasets/chime3_v12 --name cyclegan_chime3_v12_resnet_6blocks_v13 --model cycle_gan --batch_size 256 --gpu_ids 1,2,3 --ngf 256 --netG resnet_6blocks --netD n_layers --n_layers_D 6 --lambda_A 20 
+
+# Write features to kaldi format
+./test_real_v12_res6b_v13.py --dataroot ./datasets/chime3_v5 --name cyclegan_chime3_v12_resnet_6blocks_v13  --model cycle_gan --gpu_ids 2 --ngf 256 --netG resnet_6blocks --netD n_layers --n_layers_D 6 >> run.log.v12.resnet_6blocks_v13.new &
+```
+
 
