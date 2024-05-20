@@ -1,0 +1,1 @@
+/mount/arbeitsdaten/asr/licu/Git-repository/e2e/stanford-segmenter-2018-10-16/smsCorpus_zh.seg.txt

@@ -1,0 +1,119 @@
+Not a conda environment: /mount/arbeitsdaten44/projekte/asr-3/licu/download/EXP2/aishell_text/aishell1_every2000
+make cs text from aishell1_every2000/xcd and save to aishell1_every2000//exp/aishell1_xcd
+make cs text from aishell1_every2000/xbo and save to aishell1_every2000//exp/aishell1_xbo
+make cs text from aishell1_every2000/xbn and save to aishell1_every2000//exp/aishell1_xbn
+make cs text from aishell1_every2000/xaa and save to aishell1_every2000//exp/aishell1_xaa
+Traceback (most recent call last):
+  File "../replace_similar_word_v12.py", line 80, in <module>
+    strings=augment3(line, translate_client)
+  File "../replace_similar_word_v12.py", line 66, in augment3
+    translation = translator.translate(new_words[idx],target_language='zh')
+  File "/mount/arbeitsdaten/asr-3/licu/Learning/venv/lib/python3.7/site-packages/google/cloud/translate_v2/client.py", line 252, in translate
+    response = self._connection.api_request(method="POST", path="", data=data)
+  File "/mount/arbeitsdaten/asr-3/licu/Learning/venv/lib/python3.7/site-packages/google/cloud/_http.py", line 393, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.ServiceUnavailable: 503 POST https://translation.googleapis.com/language/translate/v2: The service is unavailable at this time.
+make cs text from aishell1_every2000/xbq and save to aishell1_every2000//exp/aishell1_xbq
+make cs text from aishell1_every2000/xbt and save to aishell1_every2000//exp/aishell1_xbt
+make cs text from aishell1_every2000/xcf and save to aishell1_every2000//exp/aishell1_xcf
+make cs text from aishell1_every2000/xaj and save to aishell1_every2000//exp/aishell1_xaj
+make cs text from aishell1_every2000/xal and save to aishell1_every2000//exp/aishell1_xal
+make cs text from aishell1_every2000/xae and save to aishell1_every2000//exp/aishell1_xae
+make cs text from aishell1_every2000/xbh and save to aishell1_every2000//exp/aishell1_xbh
+make cs text from aishell1_every2000/xaw and save to aishell1_every2000//exp/aishell1_xaw
+make cs text from aishell1_every2000/xca and save to aishell1_every2000//exp/aishell1_xca
+make cs text from aishell1_every2000/xbs and save to aishell1_every2000//exp/aishell1_xbs
+make cs text from aishell1_every2000/xak and save to aishell1_every2000//exp/aishell1_xak
+make cs text from aishell1_every2000/xbi and save to aishell1_every2000//exp/aishell1_xbi
+make cs text from aishell1_every2000/xbx and save to aishell1_every2000//exp/aishell1_xbx
+make cs text from aishell1_every2000/xbp and save to aishell1_every2000//exp/aishell1_xbp
+make cs text from aishell1_every2000/xcc and save to aishell1_every2000//exp/aishell1_xcc
+make cs text from aishell1_every2000/xac and save to aishell1_every2000//exp/aishell1_xac
+make cs text from aishell1_every2000/xat and save to aishell1_every2000//exp/aishell1_xat
+make cs text from aishell1_every2000/xbw and save to aishell1_every2000//exp/aishell1_xbw
+make cs text from aishell1_every2000/xce and save to aishell1_every2000//exp/aishell1_xce
+make cs text from aishell1_every2000/xbj and save to aishell1_every2000//exp/aishell1_xbj
+make cs text from aishell1_every2000/xbm and save to aishell1_every2000//exp/aishell1_xbm
+make cs text from aishell1_every2000/xci and save to aishell1_every2000//exp/aishell1_xci
+make cs text from aishell1_every2000/xag and save to aishell1_every2000//exp/aishell1_xag
+make cs text from aishell1_every2000/log/xab and save to aishell1_every2000//exp/aishell1_xab
+make cs text from aishell1_every2000/xbe and save to aishell1_every2000//exp/aishell1_xbe
+make cs text from aishell1_every2000/xbf and save to aishell1_every2000//exp/aishell1_xbf
+make cs text from aishell1_every2000/xaz and save to aishell1_every2000//exp/aishell1_xaz
+make cs text from aishell1_every2000/xao and save to aishell1_every2000//exp/aishell1_xao
+make cs text from aishell1_every2000/xch and save to aishell1_every2000//exp/aishell1_xch
+make cs text from aishell1_every2000/xbu and save to aishell1_every2000//exp/aishell1_xbu
+make cs text from aishell1_every2000/xad and save to aishell1_every2000//exp/aishell1_xad
+make cs text from aishell1_every2000/xau and save to aishell1_every2000//exp/aishell1_xau
+make cs text from aishell1_every2000/xav and save to aishell1_every2000//exp/aishell1_xav
+Traceback (most recent call last):
+  File "../replace_similar_word_v12.py", line 80, in <module>
+    strings=augment3(line, translate_client)
+  File "../replace_similar_word_v12.py", line 53, in augment3
+    en_line = translator.translate(line,target_language='en')['translatedText'].lower()
+  File "/mount/arbeitsdaten/asr-3/licu/Learning/venv/lib/python3.7/site-packages/google/cloud/translate_v2/client.py", line 252, in translate
+    response = self._connection.api_request(method="POST", path="", data=data)
+  File "/mount/arbeitsdaten/asr-3/licu/Learning/venv/lib/python3.7/site-packages/google/cloud/_http.py", line 393, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.ServiceUnavailable: 503 POST https://translation.googleapis.com/language/translate/v2: The service is unavailable at this time.
+make cs text from aishell1_every2000/xcb and save to aishell1_every2000//exp/aishell1_xcb
+make cs text from aishell1_every2000/xaq and save to aishell1_every2000//exp/aishell1_xaq
+make cs text from aishell1_every2000/xbr and save to aishell1_every2000//exp/aishell1_xbr
+make cs text from aishell1_every2000/xai and save to aishell1_every2000//exp/aishell1_xai
+make cs text from aishell1_every2000/xbl and save to aishell1_every2000//exp/aishell1_xbl
+make cs text from aishell1_every2000/xbb and save to aishell1_every2000//exp/aishell1_xbb
+make cs text from aishell1_every2000/xbc and save to aishell1_every2000//exp/aishell1_xbc
+make cs text from aishell1_every2000/xba and save to aishell1_every2000//exp/aishell1_xba
+Traceback (most recent call last):
+  File "../replace_similar_word_v12.py", line 80, in <module>
+    strings=augment3(line, translate_client)
+  File "../replace_similar_word_v12.py", line 53, in augment3
+    en_line = translator.translate(line,target_language='en')['translatedText'].lower()
+  File "/mount/arbeitsdaten/asr-3/licu/Learning/venv/lib/python3.7/site-packages/google/cloud/translate_v2/client.py", line 252, in translate
+    response = self._connection.api_request(method="POST", path="", data=data)
+  File "/mount/arbeitsdaten/asr-3/licu/Learning/venv/lib/python3.7/site-packages/google/cloud/_http.py", line 393, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.ServiceUnavailable: 503 POST https://translation.googleapis.com/language/translate/v2: The service is unavailable at this time.
+make cs text from aishell1_every2000/xbz and save to aishell1_every2000//exp/aishell1_xbz
+make cs text from aishell1_every2000/xay and save to aishell1_every2000//exp/aishell1_xay
+make cs text from aishell1_every2000/xah and save to aishell1_every2000//exp/aishell1_xah
+make cs text from aishell1_every2000/xbd and save to aishell1_every2000//exp/aishell1_xbd
+make cs text from aishell1_every2000/xby and save to aishell1_every2000//exp/aishell1_xby
+make cs text from aishell1_every2000/xaf and save to aishell1_every2000//exp/aishell1_xaf
+Traceback (most recent call last):
+  File "../replace_similar_word_v12.py", line 80, in <module>
+    strings=augment3(line, translate_client)
+  File "../replace_similar_word_v12.py", line 53, in augment3
+    en_line = translator.translate(line,target_language='en')['translatedText'].lower()
+  File "/mount/arbeitsdaten/asr-3/licu/Learning/venv/lib/python3.7/site-packages/google/cloud/translate_v2/client.py", line 252, in translate
+    response = self._connection.api_request(method="POST", path="", data=data)
+  File "/mount/arbeitsdaten/asr-3/licu/Learning/venv/lib/python3.7/site-packages/google/cloud/_http.py", line 393, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.ServiceUnavailable: 503 POST https://translation.googleapis.com/language/translate/v2: The service is unavailable at this time.
+make cs text from aishell1_every2000/exp/xab and save to aishell1_every2000//exp/aishell1_xab
+Traceback (most recent call last):
+  File "../replace_similar_word_v12.py", line 80, in <module>
+    strings=augment3(line, translate_client)
+  File "../replace_similar_word_v12.py", line 48, in augment3
+    translation = translator.translate(new_words[idx],target_language='en')
+IndexError: list index out of range
+make cs text from aishell1_every2000/xas and save to aishell1_every2000//exp/aishell1_xas
+make cs text from aishell1_every2000/xar and save to aishell1_every2000//exp/aishell1_xar
+make cs text from aishell1_every2000/xbg and save to aishell1_every2000//exp/aishell1_xbg
+make cs text from aishell1_every2000/xap and save to aishell1_every2000//exp/aishell1_xap
+make cs text from aishell1_every2000/xbk and save to aishell1_every2000//exp/aishell1_xbk
+make cs text from aishell1_every2000/xan and save to aishell1_every2000//exp/aishell1_xan
+make cs text from aishell1_every2000/xcg and save to aishell1_every2000//exp/aishell1_xcg
+make cs text from aishell1_every2000/xax and save to aishell1_every2000//exp/aishell1_xax
+make cs text from aishell1_every2000/xam and save to aishell1_every2000//exp/aishell1_xam
+Traceback (most recent call last):
+  File "../replace_similar_word_v12.py", line 80, in <module>
+    strings=augment3(line, translate_client)
+  File "../replace_similar_word_v12.py", line 53, in augment3
+    en_line = translator.translate(line,target_language='en')['translatedText'].lower()
+  File "/mount/arbeitsdaten/asr-3/licu/Learning/venv/lib/python3.7/site-packages/google/cloud/translate_v2/client.py", line 252, in translate
+    response = self._connection.api_request(method="POST", path="", data=data)
+  File "/mount/arbeitsdaten/asr-3/licu/Learning/venv/lib/python3.7/site-packages/google/cloud/_http.py", line 393, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.ServiceUnavailable: 503 POST https://translation.googleapis.com/language/translate/v2: The service is unavailable at this time.
+make cs text from aishell1_every2000/xbv and save to aishell1_every2000//exp/aishell1_xbv
