@@ -46,13 +46,13 @@ outdir=exp/AISSMS_40K_B2A2B0.6_A2B2A0.3
 mkdir -p $outdir
 cat $expdir/CCG_EP${i}_bs${bs}_test_G $expdir/CCG_EP${i}_bs${bs}_train_allG $expdir/CCG_EP${i}_bs${bs}_valid_allG $expdir/CCG_EP${i}_bs${bs}_train_PKUSMS $expdir/CCG_EP${i}_bs${bs}_valid_PKUSMS > $outdir/CCG_EP${i}_bs${bs}_148853
 
-# normalize the predictions
 # ./normalize_text.sh <text> <expdir>
 tag=B2A2B0.6_A2B2A0.3
 [ ! -d exp/normalized_text/${tag} ] && mkdir -p exp/normalized_text/${tag}
 ./normalize_text.sh $outdir/CCG_EP${i}_bs${bs}_148853 exp/normalized_text/${tag}
 ```
-* Train a language model with the mixed text (SEAME train text and the generated CS text) and evaluate the ppl of langauge model on SEAME test set
+* Combine the generated text with SEAME train text
+* Train a language model (LM) with mixed data, evaluate LM ppl on SEAME test set and run inference on SEAME test set using our best [Mandarin-English CS ASR](https://github.com/chiayuli/My-Ph.D.-Publications/tree/main/E2E-ASR-for-Mandarin-English-CS-speech) with LM
 ```
 cd $E2E/egs/cs/asr5_0/
 tag=B2A2B0.6_A2B2A0.3
@@ -64,8 +64,6 @@ ln -s $CS/exp/normalized_text/${tag}/CCG_EP${i}_bs${bs}_148853_norm2 .
 cut -d' ' -f2- data/seame-train/text | cat - CCG_EP${i}_bs${bs}_148853_norm2 > train.txt
 cut -d' ' -f2- data/seame-dev/text > valid.txt
 cut -d' ' -f2- data/seame-eval/text > test.txt
-```
-* Use our best [Mandarin-English CS ASR](https://github.com/chiayuli/My-Ph.D.-Publications/tree/main/E2E-ASR-for-Mandarin-English-CS-speech) Run decoding ASR with new language model decoding
-```
+
 export CUDA_VISIBLE_DEVICES=2; nohup ./run.CEF3.CCG.sh --stage 3 --ngpu 1 >> run.log.CCG5.test&
 ```
