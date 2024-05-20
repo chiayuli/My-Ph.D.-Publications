@@ -15,7 +15,7 @@ doi = {10.21437/Interspeech.2020-2177}
 # Datasets
 * SEAME: Mandarin-English Code-Switching in South-East Asia (LDC2015S04) for training baseline ASR and CycleGAN
 * [@Aishell-1](https://www.openslr.org/33/), [@SMS](https://scholarbank.nus.edu.sg/handle/10635/137343) for training Sequence-to-sequence (S2S) model (baseline) and CycleGAN.
-* self-developed translationed based Mandarin-English CS text using google translator API
+* self-developed translationed based Mandarin-English CS text using [Google translator API](https://cloud.google.com/translate/docs/reference/rest)
 
 # ASR toolkit
 * Kaldi (https://github.com/kaldi-asr/kaldi)
@@ -66,7 +66,7 @@ cut -d' ' -f2- ../dev/text > valid.txt
 cut -d' ' -f2- ../eval/text > test.txt
 cd ..
 ```
-* Use our best Mandarin-English CS [@ASR](https://github.com/chiayuli/My-Ph.D.-Publications/tree/main/E2E-ASR-for-Mandarin-English-CS-speech) Run decoding ASR with new language model decoding
+* Use our best [Mandarin-English CS ASR](https://github.com/chiayuli/My-Ph.D.-Publications/tree/main/E2E-ASR-for-Mandarin-English-CS-speech) Run decoding ASR with new language model decoding
 ```
 export CUDA_VISIBLE_DEVICES=2; nohup ./run.CEF3.CCG.sh --stage 3 --ngpu 1 >> run.log.CCG5.test&
 ```
