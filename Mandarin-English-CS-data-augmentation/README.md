@@ -61,10 +61,9 @@ i=9
 mkdir -p data/seametrain_${tag}_EP${i} 
 cd data/seametrain_${tag}_EP${i}
 ln -s $CS/exp/normalized_text/${tag}/CCG_EP${i}_bs${bs}_148853_norm2 .
-cut -d' ' -f2- ../train/text | cat - CCG_EP${i}_bs${bs}_148853_norm2 > train.txt
-cut -d' ' -f2- ../dev/text > valid.txt
-cut -d' ' -f2- ../eval/text > test.txt
-cd ..
+cut -d' ' -f2- data/seame-train/text | cat - CCG_EP${i}_bs${bs}_148853_norm2 > train.txt
+cut -d' ' -f2- data/seame-dev/text > valid.txt
+cut -d' ' -f2- data/seame-eval/text > test.txt
 ```
 * Use our best [Mandarin-English CS ASR](https://github.com/chiayuli/My-Ph.D.-Publications/tree/main/E2E-ASR-for-Mandarin-English-CS-speech) Run decoding ASR with new language model decoding
 ```
