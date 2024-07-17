@@ -28,4 +28,4 @@ The code was originally written by [@Espnet-group](https://github.com/espnet/esp
 * model type: conf/train_rnn.ymal (VGGBLSTM) or conf/train.ymal (Transformer) 
   
 ```
-./run.sh --skip-lm_training false --preprocess_config <preprocess-config-ymal> --train_config <model-config-ymal>
+export CUDA_VISIBLE_DEVICES=0,1,2; nohup ./run.sh --ngpu 3 --skip-lm_training false --preprocess_config <preprocess-config-ymal> --train_config <model-config-ymal> >> run.log&
