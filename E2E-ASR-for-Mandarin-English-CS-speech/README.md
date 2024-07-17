@@ -21,3 +21,11 @@ The code was originally written by [@Espnet-group](https://github.com/espnet/esp
 * [@Librispeech](https://www.openslr.org/12): Large-scale (1000 hours) corpus of read English speech
 * [@Common Voice](https://commonvoice.mozilla.org/en/datasets) (old version, 425 hours)
 * [@TedXSingapore](https://www.ted.com/tedx/events/56510)
+
+
+# Run scripts
+* preprocessing: conf/specaug.ymal or conf/no_preprocess.ymal
+* model type: conf/train_rnn.ymal (VGGBLSTM) or conf/train.ymal (Transformer) 
+  
+```
+./run.sh --skip-lm_training false --preprocess_config <preprocess-config-ymal> --train_config <model-config-ymal>
