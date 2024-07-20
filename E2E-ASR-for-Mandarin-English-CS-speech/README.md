@@ -24,6 +24,12 @@ The code was originally written by [@Espnet-group](https://github.com/espnet/esp
 
 
 # Run scripts
+* use old utils to compute the MER
+```
+  cp <your-espnet>/src/utils/score_sclite.sh <your-espnet>/src/utils/score_sclite.sh.bk
+  cp <your-espnet>/src/utils/json2trn.py <your-espnet>/src/utils/json2trn.py.bk
+  cp utils/{score_sclite.sh,json2trn.py} <your-espnet>/src/utils/
+```
 * preprocessing: conf/specaug.ymal or conf/no_preprocess.ymal
 * model type: conf/train_rnn.ymal (VGGBLSTM) or conf/train.ymal (Transformer) 
   
