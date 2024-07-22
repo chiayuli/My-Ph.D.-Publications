@@ -24,8 +24,9 @@ do_delta=false
 #preprocess_config=conf/specaug.yaml
 preprocess_config=conf/no_preprocess.yaml
 train_config=conf/train_rnn.yaml
+#train_config=conf/train.yaml
 lm_config=conf/lm.yaml
-decode_config=
+decode_config=conf/decode.yaml
 
 # rnnlm related
 skip_lm_training=false  # for training & decoding without LM
@@ -41,6 +42,15 @@ n_average=5                  # the number of ASR models to be averaged
 use_valbest_average=false    # if true, models with top-`n_average` validation/loss are averaged
 use_cerbest_average=false    # if true, models with top-`n_average` validation/cer_cer are averaged
                              # if both use_{valbest,cerbest}_average are false, last `n_average` are averaged
+
+# Set this to somewhere where you want to put your data, or where
+# someone else has already put it.  You'll want to change this
+# if you're not on the CLSP grid.
+datadir=/mnt/aoni04/higuchi/data
+
+# base url for downloads.
+data_url=www.openslr.org/resources/12
+
 # bpemode (unigram or bpe)
 nbpe=500
 bpemode=unigram
@@ -67,30 +77,13 @@ if [ ${stage} -le 1 ] && [ ${stop_stage} -ge 1 ]; then
     fbankdir=fbank
 
     # Generate the fbank features; by default 80-dimensional fbanks with pitch on each frame
-    for x in dev_clean test_clean dev_other test_other train_clean_100; do
+    for x in ${train_set} ${train_dev} dev eval; do
+        nj=`wc -l data/${x}/spk2utt | cut -d' ' -f1`
         steps/make_fbank_pitch.sh --cmd "$train_cmd" --nj ${nj} --write_utt2num_frames true \
             data/${x} exp/make_fbank/${x} ${fbankdir}
         utils/fix_data_dir.sh data/${x}
     done
 
-    # speed perturbation
-    mv data/train_clean_100 data/train_clean_100_org
-    utils/perturb_data_dir_speed.sh 0.9  data/train_clean_100_org  data/temp1
-    utils/perturb_data_dir_speed.sh 1.0  data/train_clean_100_org  data/temp2
-    utils/perturb_data_dir_speed.sh 1.1  data/train_clean_100_org  data/temp3
-    utils/combine_data.sh --extra-files utt2uniq data/train_clean_100_sp_org data/temp1 data/temp2 data/temp3
-
-    # create dev set
-    utils/combine_data.sh --extra_files utt2num_frames data/dev_org data/dev_clean data/dev_other
-
-    # remove utt having more than 3000 frames
-    # remove utt having more than 400 characters
-    remove_longshortdata.sh --maxframes 3000 --maxchars 400 data/train_clean_100_org data/train_clean_100
-    remove_longshortdata.sh --maxframes 3000 --maxchars 400 data/train_clean_100_sp_org data/train_clean_100_sp
-    remove_longshortdata.sh --maxframes 3000 --maxchars 400 data/dev_org data/dev
-    steps/make_fbank_pitch.sh --cmd "$train_cmd" --nj $nj  --write_utt2num_frames true \
-            data/train_clean_100_sp  exp/make_fbank/train_clean_100_sp  ${fbankdir}
-    utils/fix_data_dir.sh data/train_clean_100_sp
     # compute global CMVN
     compute-cmvn-stats scp:data/${train_set}/feats.scp data/${train_set}/cmvn.ark
 
@@ -106,7 +99,6 @@ if [ ${stage} -le 1 ] && [ ${stop_stage} -ge 1 ]; then
             ${feat_recog_dir}
     done
 fi
-
 
 nlsyms=data/lang_char/non_lang_syms_sp_seg2_${tag}.txt
 nlsyms_ext=data/lang_char/non_lang_syms_sp_seg2_${tag}_ext.txt
@@ -143,10 +135,10 @@ if [ ${stage} -le 2 ] && [ ${stop_stage} -ge 2 ]; then
         start=`wc -l ${dict} | cut -d' ' -f1`
         env LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 grep -oP '[\p{Han}]' data/lang_char/input.txt | sort -u | awk '{print $0 " " NR+"'$start'"}' >> ${dict}
         t=`wc -l ${dict} | cut -d' ' -f1`
-        echo "▁ $((t+1))" >> ${dict}
+        echo "▁  $((t+1))" >> ${dict}
     fi
-
     wc -l ${dict}
+
     # make json labels
     data2json.sh --nj ${nj} --feat ${feat_tr_dir}/feats.scp --bpecode ${bpemodel}.model \
         data/${train_set} ${dict} > ${feat_tr_dir}/data_${bpemode}${nbpe}.json
@@ -163,18 +155,19 @@ fi
 if [ -z ${lmtag} ] && ! ${skip_lm_training}; then
     lmtag=$(basename ${lm_config%.*})
 fi
+
+lmexpname=train_rnnlm_${backend}_${lmtag}_${bpemode}${nbpe}_ngpu${ngpu}
+lmexpdir=exp/${lmexpname}
 # you can skip LM training by setting skip_lm_training=true
 if [ ${stage} -le 3 ] && [ ${stop_stage} -ge 3 ] && ! ${skip_lm_training}; then
     echo "stage 3: LM Preparation"
-    lmexpname=train_rnnlm_${backend}_${lmtag}_${bpemode}${nbpe}_ngpu${ngpu}
-    lmexpdir=exp/${lmexpname}
-    lmdatadir=data/local/lm_seametrain_aishell_sms_CCG_B2A2B0.7_A2B2A0_ep10_unigram500
     mkdir -p ${lmexpdir}
+    lmdatadir=data/local/lm_seametrain_aishell_sms_CCG_B2A2B0.7_A2B2A0_ep10_unigram500
 
     ${cuda_cmd} --gpu ${ngpu} ${lmexpdir}/train.log \
         lm_train.py \
         --config ${lm_config} \
-        --ngpu ${ngpu} \
+        --ngpu 1 \
         --backend ${backend} \
         --verbose 1 \
         --outdir ${lmexpdir} \
@@ -223,7 +216,9 @@ fi
 
 if [ ${stage} -le 5 ] && [ ${stop_stage} -ge 5 ]; then
     echo "stage 5: Decoding"
-    if [[ $(get_yaml.py ${train_config} model-module) = *transformer* ]] || \
+    expdir=exp/train_3w_200ENZH_pytorch_CE_F3_se500/
+    lmexpdir=exp/train_rnnlm_pytorch_lm_unigram500_ngpu1
+    if [ 1 == 0 ] && [[ $(get_yaml.py ${train_config} model-module) = *transformer* ]] || \
            [[ $(get_yaml.py ${train_config} model-module) = *conformer* ]] || \
            [[ $(get_yaml.py ${train_config} etype) = custom ]] || \
            [[ $(get_yaml.py ${train_config} dtype) = custom ]]; then
@@ -244,7 +239,7 @@ if [ ${stage} -le 5 ] && [ ${stop_stage} -ge 5 ]; then
             --snapshots ${expdir}/results/snapshot.ep.* \
             --out ${expdir}/results/${recog_model} \
             --num ${n_average}
-
+    fi
         # LM option
         recog_opts=
         if ${skip_lm_training}; then
@@ -252,7 +247,6 @@ if [ ${stage} -le 5 ] && [ ${stop_stage} -ge 5 ]; then
         else
             recog_opts="--rnnlm ${lmexpdir}/${lang_model}"
         fi
-    fi
 
     pids=() # initialize pids
     for rtask in ${recog_set}; do
@@ -279,9 +273,10 @@ if [ ${stage} -le 5 ] && [ ${stop_stage} -ge 5 ]; then
             ${recog_opts}
 
 
-        #score_sclite.sh --bpe ${nbpe} --bpemodel ${bpemodel}.model --wer true ${expdir}/${decode_dir} ${dict}
-        score_sclite.sh --nlsyms ${nlsyms_ext} --bpe ${nbpe} --bpemodel ${bpemodel}.model --wer true --ter true ${expdir}/${decode_dir} ${dict}
-        score_sclite.sh --nlsyms ${nlsyms_nos} --bpe ${nbpe} --bpemodel ${bpemodel}.model --wer true ${expdir}/${decode_dir}_all ${dict}
+        score_sclite.sh --bpe ${nbpe} --bpemodel ${bpemodel}.model --ter true ${expdir}/${decode_dir} ${dict}
+        score_sclite.sh --nlsyms ${nlsyms_ext} --bpe ${nbpe} --bpemodel ${bpemodel}.model --wer true --ter true ${expdir}/${decode_dir}_ext ${dict}
+        score_sclite.sh --nlsyms ${nlsyms_nos} --bpe ${nbpe} --bpemodel ${bpemodel}.model --wer true --ter true ${expdir}/${decode_dir}_nos ${dict}
+
     ) &
     pids+=($!) # store background pids
     done
