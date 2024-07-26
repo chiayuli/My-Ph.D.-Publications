@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# results of tri4b, the SAT system 
+%WER 9.39 [ 773 / 8234, 103 ins, 108 del, 562 sub ] exp/tri4b/decode_bd_tgpr_dev93/wer_16
+%WER 6.15 [ 347 / 5643, 66 ins, 25 del, 256 sub ] exp/tri4b/decode_bd_tgpr_eval92/wer_14
+
+# below are results of the pdnn recipes
+
+# run-dnn.sh
+%WER 7.18 [ 591 / 8234, 74 ins, 92 del, 425 sub ] exp_pdnn/dnn/decode_bd_tgpr_dev93/wer_11
+%WER 4.08 [ 230 / 5643, 29 ins, 21 del, 180 sub ] exp_pdnn/dnn/decode_bd_tgpr_eval92/wer_11
+
+# run-bnf-tandem.sh -- apply mean normalization over BNF; the default config
+%WER 7.66 [ 631 / 8234, 86 ins, 94 del, 451 sub ] exp_pdnn/bnf_tandem/tri5a/decode_bd_tgpr_dev93/wer_32
+%WER 4.61 [ 260 / 5643, 41 ins, 18 del, 201 sub ] exp_pdnn/bnf_tandem/tri5a/decode_bd_tgpr_eval92/wer_33
+%WER 6.72 [ 553 / 8234, 55 ins, 95 del, 403 sub ] exp_pdnn/bnf_tandem/tri5a_mmi_b0.1/decode_bd_tgpr_dev93_it4/wer_30
+%WER 3.81 [ 215 / 5643, 22 ins, 13 del, 180 sub ] exp_pdnn/bnf_tandem/tri5a_mmi_b0.1/decode_bd_tgpr_eval92_it4/wer_32
+%WER 7.10 [ 585 / 8234, 66 ins, 102 del, 417 sub ] exp_pdnn/bnf_tandem/sgmm5a/decode_bd_tgpr_dev93/wer_26
+%WER 4.27 [ 241 / 5643, 30 ins, 17 del, 194 sub ] exp_pdnn/bnf_tandem/sgmm5a/decode_bd_tgpr_eval92/wer_26
+%WER 6.64 [ 547 / 8234, 69 ins, 85 del, 393 sub ] exp_pdnn/bnf_tandem/sgmm5a_mmi_b0.1/decode_bd_tgpr_dev93_it4/wer_20
+%WER 3.69 [ 208 / 5643, 27 ins, 10 del, 171 sub ] exp_pdnn/bnf_tandem/sgmm5a_mmi_b0.1/decode_bd_tgpr_eval92_it4/wer_20
+
+# run-dnn-fbank.sh
+%WER 7.38 [ 608 / 8234, 80 ins, 90 del, 438 sub ] exp_pdnn/dnn_fbank/decode_bd_tgpr_dev93/wer_10
+%WER 4.27 [ 241 / 5643, 36 ins, 14 del, 191 sub ] exp_pdnn/dnn_fbank/decode_bd_tgpr_eval92/wer_9
+
+# run-cnn.sh
+
+

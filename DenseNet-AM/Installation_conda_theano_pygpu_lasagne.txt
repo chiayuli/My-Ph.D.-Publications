@@ -1,0 +1,48 @@
+## Installation of theano, lasagne and pygpu using conda ##
+
+Step 1. install miniconda
+	./Miniconda2-latest-Linux-x86_64.sh
+	(remeber to set the local path for miniconda, i.e. /home/user/XXX/.local/)
+
+Step 2. install theano pygpu lasagne and update them to latest dev. version
+	conda install theano pygpu lasagne
+	pip install --upgrade https://github.com/Theano/Theano/archive/master.zip
+	pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip
+
+Step 3. pygpu test
+	DEVICE="<test device>" python -c "import pygpu;pygpu.test()"
+
+Step 4. run my program
+	export CUDA_VISIBLE_DEVICES="0"; THEANO_FLAGS='device=cuda' nohup $pythonCMD pdnnlg/cmds/run_CNN.py \
+	--train-data "$working_dir/train_tr95.pfile.1.gz,partition=7000m,random=true,stream=true" \ 
+	--valid-data "$working_dir/train_cv05.pfile.1.gz,partition=600m,random=true,stream=true" \
+	--conv-nnet-spec "3x11x40:256,9x9,p1x3:256,3x4,p1x1,f" --nnet-spec "1024:1024:1024:1024:$num_pdfs" \
+	--lrate "D:0.08:0.5:0.2,0.2:4" --momentum 0.9 --wdir $working_dir --param-output-file $working_dir/nnet.param \
+	--cfg-output-file $working_dir/nnet.cfg --kaldi-output-file $working_dir/dnn.nnet >> run.gpu.test&
+
+## For some Server ##
+If u meet Error 'Your installed version of pygpu(0.6.9) is too old, please upgrade to 0.7.0 or later'
+Then run the below command to upgrade to the latest version (0.7.1)
+	conda install -c conda-forge pygpu
+
+and re-run Step 2 the installation of theano and lasagne
+
+If u meet this Theano Error 'libcudnn.so.6.0: cannot open shared object file: No such file or directory' with CUDA7.0 and CuDNN3.0 installed. Then, run either one of below commands:	
+	theano-cache clear 
+	theano-cache purge 
+
+because it looks like you have an old module that is still compiled with cudnn from cuda 6.0.
+
+If u meet this pygpu Error 'ValueError: Your installed version of pygpu(0.6.9) is too old, please upgrade to 0.7.0 or later (but below 0.8.0)'. Then, upgrade pygpu by running the below commands:
+	conda install -c conda-forge pygpu
+
+## Add path into ~/.bashrcXXXX where XXXX is server name, and run it everytime u log on to the server ##
+
+other server:
+# added by Miniconda2 4.3.21 installer
+export PATH="/mount/arbeitsdaten/asr/licu/.local/bin:$PATH"
+
+
+Reference:
+[1] theano, lasagne: http://lasagne.readthedocs.io/en/latest/user/installation.html
+[2] pygpu: http://deeplearning.net/software/libgpuarray/installation.html
