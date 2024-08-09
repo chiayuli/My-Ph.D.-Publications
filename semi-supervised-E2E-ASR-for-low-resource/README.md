@@ -15,5 +15,5 @@ The code was originally written by [@Espnet-group](https://github.com/espnet/esp
 # Experiment
 * please copy all the files under espnet to your espnet directory
 * please go to the egs/commonvoice/asr1/local or egs/voxforge/asr1/local, and copy local/process_sentence.sh to it
-* for Voxforge, the run script is run.vx.final.sh
-* for common voice, the run script is run.cv.final.sh, and the data split are in data/{el,fi,hu}
+* for Voxforge, the run script is run.vx.final.sh, and the data splits are in data/voxforge/{de,it,nl}
+* for common voice, the run script is run.cv.final.sh, and the data splits are in data/common_voice{el,fi,hu}
