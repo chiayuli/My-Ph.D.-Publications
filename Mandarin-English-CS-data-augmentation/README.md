@@ -1,4 +1,4 @@
-The code was written by [Chia-Yu Li](https://github.com/chiayuli) and referenced from the code on the github.
+The code was written by [Chia-Yu Li](https://github.com/chiayuli).
 
 # Citations
 ```
