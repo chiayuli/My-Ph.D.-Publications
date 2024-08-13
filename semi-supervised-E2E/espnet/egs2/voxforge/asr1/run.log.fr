@@ -1,8 +1,0 @@
-2022-07-16T16:37:50 (asr.sh:220:main) ./asr.sh --lang fr --local_data_opts --lang fr --use_lm false --token_type char --feats_type raw --asr_args --normalize_conf norm_vars=False  --asr_config conf/train_asr_rnn.yaml --inference_config conf/decode_asr.yaml --train_set tr_fr --valid_set dt_fr --test_sets dt_fr et_fr --lm_train_text data/tr_fr/text --stage 2
-2022-07-16T16:37:50 (asr.sh:418:main) Skip stage 2: Speed perturbation
-2022-07-16T16:37:50 (asr.sh:428:main) Stage 3: Format wav.scp: data/ -> dump/raw
-utils/copy_data_dir.sh: copied data from data/tr_fr to dump/raw/org/tr_fr
-utils/validate_data_dir.sh: Successfully validated data-directory dump/raw/org/tr_fr
-2022-07-16T16:37:52 (format_wav_scp.sh:42:main) scripts/audio/format_wav_scp.sh --nj 32 --cmd run.pl --audio-format flac --fs 16k data/tr_fr/wav.scp dump/raw/org/tr_fr
-2022-07-16T16:37:52 (format_wav_scp.sh:110:main) [info]: without segments
-run.pl: 32 / 32 failed, log is in dump/raw/org/tr_fr/logs/format_wav_scp.*.log
