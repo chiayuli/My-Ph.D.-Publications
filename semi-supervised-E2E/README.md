@@ -20,3 +20,4 @@ The code was originally written by [@Espnet-group](https://github.com/espnet/esp
 # Experiment
 * please copy all the files under espnet to your espnet directory
 * the run script for WSJ is run.wsj.sh, please copy it to the egs/wsj/asr1 and run it
+* For Librispeech, the script are similar; just replace the supervised data with train_clean_100, and the unsupervised data with train_clean_360
