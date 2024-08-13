@@ -17,6 +17,6 @@ The code was originally written by [@Espnet-group](https://github.com/espnet/esp
 * WSJ (LDC93S6A, LDC94S13A)
 * [@Librispeech](https://www.openslr.org/12): Large-scale (1000 hours) corpus of read English speech
 
-# Installation and initialization
-* copy espnet/espnet to you working directory and run installation following the README.md in [@Espnet](https://github.com/espnet/espnet)
-* create a folder naming "semi" under espnet/espnet/egs/wsj
+# Experiment
+* please copy all the files under espnet to your espnet directory
+* the run script for WSJ is run.wsj.sh, please copy it to the egs/wsj/asr1 and run it
