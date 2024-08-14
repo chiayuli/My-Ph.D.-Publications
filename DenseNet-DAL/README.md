@@ -10,18 +10,13 @@ year = {2019},
 editor = {Peter Birkholz and Simon Stone},
 month = mar,
 pages = {9--16},
-publisher = {TUDpress, Dresden},
-abstract = {We investigate densely connected convolutional networks (DenseNets)and their extension with domain adversarial training for noise robust speech recog-nition. DenseNets are very deep, compact convolutional neural networks whichhave demonstrated incredible improvements over the state-of-the-art results incomputer vision. Our experimental results reveal that DenseNets are more robustagainst noise than other neural network based models such as deep feed forwardneural networks and convolutional neural networks. Moreover, domain adversariallearning can further improve the robustness of DenseNets against both, known andunknown noise conditions.},
-isbn = {978-3-959081-57-3},
-issn = {0940-6832},
-keywords = {Spracherkennung und -wahrnehmung},
-url = {https://www.essv.de/pdf/2019_9_16.pdf},
+publisher = {TUDpress, Dresden}
 }
 ```
 
 # Datasets
-* AURORA4 (http://aurora.hsnr.de/aurora-4.html)
-* self-developed noise corrupted Resource Management 2.0 using our [@scripts](https://github.com/chiayuli/noise-data-preparation) and [@idiap_acoustic_simulator](https://github.com/idiap/acoustic-simulator)
+* [@AURORA4](http://aurora.hsnr.de/aurora-4.html)
+* self-developed noise corrupted Resource Management 2.0 using [@our_scripts](https://github.com/chiayuli/noise-data-preparation) and [@idiap_acoustic_simulator](https://github.com/idiap/acoustic-simulator)
 
 # Toolkits
 Kaldi and install_pfile_utils.sh
