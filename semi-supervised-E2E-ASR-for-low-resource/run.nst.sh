@@ -250,7 +250,7 @@ fi
 skip_lm_training=false
 if [ ${stage} -le 6 ] && [ ${stop_stage} -ge 6 ]; then
     echo "stage 6: iterative model training on relablled data"
-    for m in {9..20}
+    for m in {1..8}
     do
         expdir=exp/${lang}/NST_M${m}
         pseudolabel_set=${unlabel_set}_OrigNST_M${m}
